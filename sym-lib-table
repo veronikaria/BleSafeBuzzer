@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "SafeGuardBuzzer_Local")(type "KiCad")(uri "${KIPRJMOD}/SafeGuardBuzzer_Local.kicad_sym")(options "")(descr "SafeGuard Buzzer local symbols"))
+)
