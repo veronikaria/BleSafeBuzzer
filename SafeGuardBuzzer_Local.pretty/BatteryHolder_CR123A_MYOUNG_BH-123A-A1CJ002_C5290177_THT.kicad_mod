@@ -1,0 +1,149 @@
+(footprint "BatteryHolder_CR123A_MYOUNG_BH-123A-A1CJ002_C5290177_THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MYOUNG BH-123A-A1CJ002 / LCSC C5290177 horizontal CR123A THT/DIP battery holder. Geometry from JLC/EasyEDA package BAT-TH_BH-123A-A5BJ002 and LCSC datasheet: body approx 43.3x18.2mm, pin pitch approx 37.6mm, one non-plated locating hole.")
+	(tags "CR123A battery holder THT DIP MYOUNG BH-123A-A1CJ002 C5290177")
+	(property "Reference" "REF**"
+		(at 0 -11.4 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BH-123A-A1CJ002"
+		(at 0 11.4 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -21.65 -9.1)
+		(end 21.65 -9.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 21.65 -9.1)
+		(end 21.65 9.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start 21.65 9.1)
+		(end -21.65 9.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_line
+		(start -21.65 9.1)
+		(end -21.65 -9.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+	)
+	(fp_text user "+"
+		(at -18.82 2.8 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 18.82 2.8 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.18)
+			)
+		)
+	)
+	(fp_line
+		(start -21.65 -9.1)
+		(end 21.65 -9.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 21.65 -9.1)
+		(end 21.65 9.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 21.65 9.1)
+		(end -21.65 9.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -21.65 9.1)
+		(end -21.65 -9.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start -22.4 -9.85)
+		(end 22.4 9.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(pad "1" thru_hole circle
+		(at -18.82 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "2" thru_hole circle
+		(at 18.82 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at -18.82 -8.34)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+	)
+)
