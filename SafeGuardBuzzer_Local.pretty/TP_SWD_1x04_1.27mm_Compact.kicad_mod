@@ -1,0 +1,131 @@
+(footprint "TP_SWD_1x04_1.27mm_Compact"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Compact 1x04 SMD test-pad row for SWD/debug probing, 1.27 mm pitch")
+	(tags "test pad SWD debug 1x04 1.27mm")
+	(property "Reference" "REF**"
+		(at 0 -1.6 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TP_SWD_1x04_1.27mm_Compact"
+		(at 0 1.6 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files)
+	(fp_line
+		(start -2.455 -0.75)
+		(end 2.455 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 2.455 -0.75)
+		(end 2.455 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 2.455 0.75)
+		(end -2.455 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -2.455 0.75)
+		(end -2.455 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -2.95 -1.05)
+		(end 2.95 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 2.95 -1.05)
+		(end 2.95 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 2.95 1.05)
+		(end -2.95 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -2.95 1.05)
+		(end -2.95 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_text user "1"
+		(at -2.2 -1.15 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at -1.905 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "2" smd circle
+		(at -0.635 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "3" smd circle
+		(at 0.635 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "4" smd circle
+		(at 1.905 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+)
