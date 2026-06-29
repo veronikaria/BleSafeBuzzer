@@ -5,9 +5,10 @@
 	(layer "F.Cu")
 	(descr "FUET FUET-1365-3V / LCSC C417422 SMD passive magnetic buzzer, 12.8x12.8x6.5mm. Pad geometry from JLC/EasyEDA package BUZ-SMD_FUET-1365-XXV: two 2.5x4.0mm pads on 11.0mm pitch.")
 	(tags "buzzer passive magnetic SMD FUET-1365-3V C417422")
-	(property "Reference" "REF**"
+	(property "Reference" "BZ1"
 		(at 0 -8.9 0)
 		(layer "F.SilkS")
+		(uuid "dfa2fcde-ebd6-4024-ad5a-d330ef94beb9")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -18,6 +19,7 @@
 	(property "Value" "FUET-1365-3V"
 		(at 0 8.9 0)
 		(layer "F.Fab")
+		(uuid "4cd264f6-e76f-440e-b4b8-7d646ae062c9")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -25,62 +27,42 @@
 			)
 		)
 	)
-	(attr smd)
-	(fp_line
-		(start -6.4 -6.4)
-		(end 6.4 -6.4)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -6.4 -6.4)
-		(end -6.4 3.9)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -6.4 3.9)
-		(end -3.9 6.4)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start -3.9 6.4)
-		(end 6.4 6.4)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_line
-		(start 6.4 -6.4)
-		(end 6.4 6.4)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-	)
-	(fp_text user "+"
-		(at -4.7 -4.7 0)
-		(layer "F.SilkS")
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "351405ad-3ffa-469d-acdf-56dcc48a1060")
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
 	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "524f5ea0-43b5-4508-8bc4-dde6e02696a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -6.9 -8)
+		(end 6.9 8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e577f9d4-b3be-4b38-91db-960dbfbb129c")
+	)
 	(fp_line
 		(start -6.4 -6.4)
 		(end 6.4 -6.4)
@@ -89,33 +71,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-	)
-	(fp_line
-		(start 6.4 -6.4)
-		(end 6.4 6.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start 6.4 6.4)
-		(end -3.9 6.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-	)
-	(fp_line
-		(start -3.9 6.4)
-		(end -6.4 3.9)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
+		(uuid "246a16c2-352d-4cf6-aaad-0269d08a2eb4")
 	)
 	(fp_line
 		(start -6.4 3.9)
@@ -125,16 +81,37 @@
 			(type solid)
 		)
 		(layer "F.Fab")
+		(uuid "6b08c98e-c74c-4f4c-80cb-9b0f48f752ab")
 	)
-	(fp_circle
-		(center 0 0)
-		(end 3.8 0)
+	(fp_line
+		(start -3.9 6.4)
+		(end -6.4 3.9)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
-		(fill no)
 		(layer "F.Fab")
+		(uuid "67e7b3d2-66bf-4cd5-841b-93fec986c5a7")
+	)
+	(fp_line
+		(start 6.4 -6.4)
+		(end 6.4 6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08fc068b-9135-482f-868e-5653a815fd61")
+	)
+	(fp_line
+		(start 6.4 6.4)
+		(end -3.9 6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16807461-3b6a-40a4-9db5-17eb32ee0178")
 	)
 	(fp_circle
 		(center -5.2 -5.2)
@@ -145,25 +122,30 @@
 		)
 		(fill no)
 		(layer "F.Fab")
+		(uuid "3424205d-96e3-4396-8ed2-e37c7318f290")
 	)
-	(fp_rect
-		(start -6.9 -8)
-		(end 6.9 8)
+	(fp_circle
+		(center 0 0)
+		(end 3.8 0)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(fill no)
-		(layer "F.CrtYd")
+		(layer "F.Fab")
+		(uuid "7b66d5ae-40e0-4cd4-af39-194a476b1cba")
 	)
 	(pad "1" smd rect
 		(at 0 -5.5)
 		(size 2.5 4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0c9b0c34-4fee-4b40-b88e-8b25a50eb303")
 	)
 	(pad "2" smd rect
 		(at 0 5.5)
 		(size 2.5 4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e28e9aac-8757-418d-98e1-f27d6ffd37b5")
 	)
+	(embedded_fonts no)
 )

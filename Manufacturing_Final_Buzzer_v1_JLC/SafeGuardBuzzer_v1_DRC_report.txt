@@ -1,0 +1,10 @@
+** Drc report for SafeGuardBuzzer_v1.kicad_pcb **
+** Created on 2026-06-28T23:07:18-0600 **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
