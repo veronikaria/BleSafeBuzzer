@@ -1,16 +1,7 @@
 ** Drc report for SafeGuardBuzzer_v1.kicad_pcb **
-** Created on 2026-06-28T22:59:30-0600 **
+** Created on 2026-06-28T23:07:18-0600 **
 
-** Found 3 DRC violations **
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(6.3500 mm, 16.9000 mm): Segment of BT1 on F.Silkscreen
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(68.6000 mm, 27.6000 mm): Segment of BZ1 on F.Silkscreen
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(71.1000 mm, 40.4000 mm): Segment of BZ1 on F.Silkscreen
+** Found 0 DRC violations **
 
 ** Found 0 unconnected pads **
 
