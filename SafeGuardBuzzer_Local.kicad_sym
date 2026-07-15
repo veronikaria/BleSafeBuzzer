@@ -43,6 +43,21 @@
 )
 (embedded_fonts no)
 )
+(symbol "SafeGuardBuzzer_Local:Battery_CR2450_1Cell"
+(pin_names (offset 0.508))
+(exclude_from_sim no) (in_bom yes) (on_board yes)
+(property "Reference" "BT" (at 0 6.35 0) (effects (font (size 1.27 1.27))))
+(property "Value" "Keystone 3008 CR2450 holder" (at 0 -6.35 0) (effects (font (size 1.27 1.27))))
+		(property "Footprint" "SafeGuardBuzzer_Local:BatteryHolder_Keystone_3008_1x2450" (at 0 -8.89 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=786" (at 0 -11.43 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Description" "1x CR2450 SMT coin-cell retainer, Keystone 3008; JLC assembly availability must be manually confirmed" (at 0 -15.24 0) (effects (font (size 1.27 1.27)) (hide yes)))
+(symbol "Battery_CR2450_1Cell_0_1"
+(rectangle (start -6.35 3.81) (end 6.35 -3.81) (stroke (width 0.254) (type default)) (fill (type none)))
+(pin power_out line (at -7.62 2.54 0) (length 3.81) (name "+" (effects (font (size 1.016 1.016)))) (number "1" (effects (font (size 1.016 1.016)))))
+(pin power_out line (at -7.62 -2.54 0) (length 3.81) (name "-" (effects (font (size 1.016 1.016)))) (number "2" (effects (font (size 1.016 1.016)))))
+)
+(embedded_fonts no)
+)
 (symbol "SafeGuardBuzzer_Local:SW_SPDT_PCM12_Power"
 (pin_names (offset 0.508))
 (exclude_from_sim no) (in_bom yes) (on_board yes)

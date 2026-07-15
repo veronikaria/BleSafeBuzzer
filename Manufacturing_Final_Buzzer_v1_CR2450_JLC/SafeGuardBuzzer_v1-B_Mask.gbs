@@ -1,0 +1,30 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.3*%
+%TF.CreationDate,2026-07-09T00:52:22-06:00*%
+%TF.ProjectId,SafeGuardBuzzer_v1,53616665-4775-4617-9264-42757a7a6572,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.3) date 2026-07-09 00:52:22*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.900000*%
+%ADD11R,6.000000X5.500000*%
+%ADD12C,20.000000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,S1*%
+X5500000Y-7330000D03*
+X8500000Y-7330000D03*
+%TD*%
+D11*
+%TO.C,BT1*%
+X12700000Y-27000000D03*
+X43300000Y-27000000D03*
+D12*
+X28000000Y-27000000D03*
+%TD*%
+M02*
