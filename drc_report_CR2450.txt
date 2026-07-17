@@ -1,10 +1,82 @@
 ** Drc report for SafeGuardBuzzer_v1.kicad_pcb **
-** Created on 2026-07-09T00:51:53-0600 **
+** Created on 2026-07-14T22:43:08-0600 **
 
-** Found 0 DRC violations **
+** Found 10 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Resistor_SMD'.
+    Local override; warning
+    @(81.0000 mm, 8.0000 mm): Footprint R1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'.
+    Local override; warning
+    @(63.5000 mm, 20.5000 mm): Footprint C2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'LED_SMD'.
+    Local override; warning
+    @(84.2000 mm, 8.0000 mm): Footprint D1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Button_Switch_SMD'.
+    Local override; warning
+    @(7.0000 mm, 7.0000 mm): Footprint S1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Resistor_SMD'.
+    Local override; warning
+    @(88.4000 mm, 37.8000 mm): Footprint R3
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'.
+    Local override; warning
+    @(58.0000 mm, 22.2000 mm): Footprint C1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Diode_SMD'.
+    Local override; warning
+    @(86.0000 mm, 43.0000 mm): Footprint D2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Package_TO_SOT_SMD'.
+    Local override; warning
+    @(86.5000 mm, 33.0000 mm): Footprint Q1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Resistor_SMD'.
+    Local override; warning
+    @(78.0000 mm, 10.5000 mm): Footprint R2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'.
+    Local override; warning
+    @(53.0000 mm, 22.2000 mm): Footprint C3
 
 ** Found 0 unconnected pads **
 
-** Found 0 Footprint errors **
+** Found 14 Footprint errors **
+[footprint_symbol_mismatch]: Value (BZ1) doesn't match symbol value (FUET-1365-3V).
+    Local override; warning
+    @(75.0000 mm, 34.0000 mm): Footprint BZ1
+[footprint_symbol_mismatch]: Value (C1) doesn't match symbol value (10uF).
+    Local override; warning
+    @(58.0000 mm, 22.2000 mm): Footprint C1
+[footprint_symbol_mismatch]: Value (C2) doesn't match symbol value (100nF).
+    Local override; warning
+    @(63.5000 mm, 20.5000 mm): Footprint C2
+[footprint_symbol_mismatch]: Value (C3) doesn't match symbol value (100uF).
+    Local override; warning
+    @(53.0000 mm, 22.2000 mm): Footprint C3
+[footprint_symbol_mismatch]: Value (D1) doesn't match symbol value (Red LED).
+    Local override; warning
+    @(84.2000 mm, 8.0000 mm): Footprint D1
+[footprint_symbol_mismatch]: Value (D2) doesn't match symbol value (BAT54WS).
+    Local override; warning
+    @(86.0000 mm, 43.0000 mm): Footprint D2
+[footprint_symbol_mismatch]: Value (J1) doesn't match symbol value (SWD_DEBUG).
+    Local override; warning
+    @(69.0000 mm, 23.5000 mm): Footprint J1
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.
+    Local override; warning
+    @(69.0000 mm, 23.5000 mm): Footprint J1
+[footprint_symbol_mismatch]: Value (J2) doesn't match symbol value (VBAT_GND_TEST).
+    Local override; warning
+    @(21.0000 mm, 10.0000 mm): Footprint J2
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.
+    Local override; warning
+    @(21.0000 mm, 10.0000 mm): Footprint J2
+[footprint_symbol_mismatch]: Value (JP1) doesn't match symbol value (CURRENT_MEAS).
+    Local override; warning
+    @(27.0000 mm, 8.0000 mm): Footprint JP1
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.
+    Local override; warning
+    @(27.0000 mm, 8.0000 mm): Footprint JP1
+[footprint_symbol_mismatch]: Value (Q1) doesn't match symbol value (AO3400A).
+    Local override; warning
+    @(86.5000 mm, 33.0000 mm): Footprint Q1
+[footprint_symbol_mismatch]: Value (S1) doesn't match symbol value (PCM12 ON/OFF).
+    Local override; warning
+    @(7.0000 mm, 7.0000 mm): Footprint S1
 
 ** End of Report **

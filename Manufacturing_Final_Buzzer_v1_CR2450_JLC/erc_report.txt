@@ -1,5 +1,35 @@
-ERC report (2026-07-09T00:48:21-0600, Encoding UTF8)
+ERC report (2026-07-14T22:45:45-0600, Encoding UTF8)
 
 ***** Sheet /
+[footprint_link_issues]: The current configuration does not include the footprint library 'Button_Switch_SMD'.
+    ; warning
+    @(59.69 mm, 44.45 mm): Symbol S1 [SW_SPDT_PCM12_Power]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'.
+    ; warning
+    @(44.45 mm, 74.93 mm): Symbol C1 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'.
+    ; warning
+    @(44.45 mm, 82.55 mm): Symbol C2 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'.
+    ; warning
+    @(44.45 mm, 91.44 mm): Symbol C3 [C]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Resistor_SMD'.
+    ; warning
+    @(69.85 mm, 110.49 mm): Symbol R2 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Diode_SMD'.
+    ; warning
+    @(69.85 mm, 128.27 mm): Symbol D2 [Diode_Schottky]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(85.09 mm, 119.38 mm): Symbol Q1 [NMOS_GDS]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Resistor_SMD'.
+    ; warning
+    @(85.09 mm, 132.08 mm): Symbol R3 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Resistor_SMD'.
+    ; warning
+    @(129.54 mm, 119.38 mm): Symbol R1 [R]
+[footprint_link_issues]: The current configuration does not include the footprint library 'LED_SMD'.
+    ; warning
+    @(144.78 mm, 119.38 mm): Symbol D1 [LED_Red_0603]
 
- ** ERC messages: 0  Errors 0  Warnings 0
+ ** ERC messages: 10  Errors 0  Warnings 10

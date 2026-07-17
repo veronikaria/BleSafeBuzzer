@@ -1,0 +1,121 @@
+(footprint "BatteryHolder_MYOUNG_MY-2450-03_C2988622_CR2450"
+	(version 20241229)
+	(generator "codex")
+	(generator_version "1.0")
+	(descr "MYOUNG MY-2450-03 / LCSC C2988622 CR2450 SMT battery buckle/contact. Land pattern derived from LCSC/EasyEDA footprint SVG prod/e875f83c7064409e9934bba05e70b679: side solder pads 2.60 x 7.60 mm at +/-13.65 mm, center battery contact 8.00 mm diameter. Pad numbering adapted to existing Buzzer schematic: pad 1 = positive side clips, pad 2 = center negative/GND contact.")
+	(tags "CR2450 MYOUNG MY-2450-03 C2988622 coin-cell holder battery buckle SMT")
+	(property "Reference" "REF**"
+		(at 0 -10.5 0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BatteryHolder_MYOUNG_MY-2450-03_C2988622_CR2450"
+		(at 0 10.5 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2204021730_MYOUNG-MY-2450-03_C2988622.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -12.8 -7.75)
+		(end 12.8 -7.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 12.8 -7.75)
+		(end 12.8 7.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start 12.8 7.75)
+		(end -12.8 7.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_line
+		(start -12.8 7.75)
+		(end -12.8 -7.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 12.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+	)
+	(fp_rect
+		(start -16.1 -8.8)
+		(end 16.1 8.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -13.65 0)
+		(size 2.6 7.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "1" smd rect
+		(at 13.65 0)
+		(size 2.6 7.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+	)
+	(pad "2" smd circle
+		(at 0 0)
+		(size 8 8)
+		(layers "F.Cu" "F.Mask")
+	)
+	(embedded_fonts no)
+)
