@@ -1,5 +1,5 @@
 ** Drc report for SafeGuardBuzzer_v1.kicad_pcb **
-** Created on 2026-09-20T16:10:51-0600 **
+** Created on 2026-09-20T17:49:35-0600 **
 
 ** Found 13 DRC violations **
 [lib_footprint_issues]: The current configuration does not include the footprint library 'Resistor_SMD'.
@@ -22,7 +22,7 @@
     @(62.0000 mm, 27.0000 mm): Footprint R3
 [lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'.
     Local override; warning
-    @(39.0000 mm, 22.0000 mm): Footprint C1
+    @(43.0000 mm, 20.5000 mm): Footprint C1
 [lib_footprint_issues]: The current configuration does not include the footprint library 'Diode_SMD'.
     Local override; warning
     @(58.0000 mm, 37.0000 mm): Footprint D2
@@ -34,7 +34,7 @@
     @(62.0000 mm, 24.0000 mm): Footprint R2
 [lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'.
     Local override; warning
-    @(32.0000 mm, 22.0000 mm): Footprint C3
+    @(35.0000 mm, 36.0000 mm): Footprint C3
 [silk_over_copper]: Silkscreen clipped by solder mask
     Local override; warning
     @(62.0000 mm, 22.5700 mm): Reference field of R2
@@ -50,13 +50,13 @@
     @(48.0000 mm, 31.0000 mm): Footprint BZ1
 [footprint_symbol_mismatch]: Value (C1) doesn't match symbol value (10uF).
     Local override; warning
-    @(39.0000 mm, 22.0000 mm): Footprint C1
+    @(43.0000 mm, 20.5000 mm): Footprint C1
 [footprint_symbol_mismatch]: Value (C2) doesn't match symbol value (100nF).
     Local override; warning
     @(49.0000 mm, 20.5000 mm): Footprint C2
 [footprint_symbol_mismatch]: Value (C3) doesn't match symbol value (100uF).
     Local override; warning
-    @(32.0000 mm, 22.0000 mm): Footprint C3
+    @(35.0000 mm, 36.0000 mm): Footprint C3
 [footprint_symbol_mismatch]: Value (D1) doesn't match symbol value (Red LED).
     Local override; warning
     @(36.0000 mm, 12.0000 mm): Footprint D1
