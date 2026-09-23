@@ -4155,14 +4155,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_1210_3225Metric"
+	(footprint "SafeGuardBuzzer_Local:C_1210_3225_Samsung_CL32A107MQVNNNE_C49066"
 		(layer "F.Cu")
 		(uuid "cdc99da3-ce00-4156-8a09-fd14e4e1bdb5")
 		(at 35 36 90)
-		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
-		(tags "capacitor")
+		(descr "Samsung CL32A107MQVNNNE / LCSC C49066, nonpolar 100uF 6.3V X5R MLCC. Body 3.20x2.50x2.50mm, termination BW 0.60+/-0.30mm from Samsung. Pads 1.635x2.700mm on 3.035mm pitch from official JLC/LCSC EasyEDA package C1210 for C49066.")
+		(tags "capacitor MLCC 1210 3225 Samsung CL32A107MQVNNNE C49066")
 		(property "Reference" "C3"
-			(at 0 -2.3 0)
+			(at 0 -2.3 90)
 			(layer "F.SilkS")
 			(uuid "c7a9fdee-637e-4fd4-aabf-3ba80fe51867")
 			(effects
@@ -4173,7 +4173,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 0 2.3 0)
+			(at 0 2.3 90)
 			(layer "F.Fab")
 			(uuid "c1c95355-fe4f-48f2-8f4b-b8cdecb8c773")
 			(effects
@@ -4184,7 +4184,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ca43353b-0df6-4c40-9582-668878c56c59")
@@ -4196,7 +4196,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6e219c82-e7c0-4257-a43e-51ab436cc561")
@@ -4209,8 +4209,8 @@
 		)
 		(attr smd)
 		(fp_line
-			(start -0.711252 -1.36)
-			(end 0.711252 -1.36)
+			(start -0.6 -1.36)
+			(end 0.6 -1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -4219,8 +4219,8 @@
 			(uuid "c271bd0d-9717-499d-ad5d-c159be7b5663")
 		)
 		(fp_line
-			(start -0.711252 1.36)
-			(end 0.711252 1.36)
+			(start -0.6 1.36)
+			(end 0.6 1.36)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -4228,88 +4228,30 @@
 			(layer "F.SilkS")
 			(uuid "d24371d0-c7a1-4a06-8247-e49cce90d9e9")
 		)
-		(fp_line
-			(start -2.3 -1.6)
-			(end 2.3 -1.6)
+		(fp_rect
+			(start -2.6 -1.65)
+			(end 2.6 1.65)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "01b9e067-0a4c-46c8-ad62-ee96b3447a40")
 		)
-		(fp_line
-			(start -2.3 1.6)
-			(end -2.3 -1.6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "14dc41b8-a679-4312-9f0a-9ccc041b98c2")
-		)
-		(fp_line
-			(start 2.3 -1.6)
-			(end 2.3 1.6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b8216fe4-02b0-45c7-aa9b-b91cb2d29e8b")
-		)
-		(fp_line
-			(start 2.3 1.6)
-			(end -2.3 1.6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "24149a73-822b-4a3b-a4b6-bbf6c7585654")
-		)
-		(fp_line
+		(fp_rect
 			(start -1.6 -1.25)
-			(end 1.6 -1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b93fd3ab-665d-40ba-b512-1eeb4a600e07")
-		)
-		(fp_line
-			(start -1.6 1.25)
-			(end -1.6 -1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "08a28955-3adb-4ef1-89dd-c8b114f3961c")
-		)
-		(fp_line
-			(start 1.6 -1.25)
 			(end 1.6 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
+			(fill no)
 			(layer "F.Fab")
-			(uuid "2d75113b-45f5-44cc-935a-169472d807dd")
-		)
-		(fp_line
-			(start 1.6 1.25)
-			(end -1.6 1.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3b121fa2-a5a0-458b-bfb4-1164df77bc25")
+			(uuid "b93fd3ab-665d-40ba-b512-1eeb4a600e07")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "3e6a0b17-9dab-4275-ae3a-5b1c8f3e1eec")
 			(effects
@@ -4319,19 +4261,17 @@
 				)
 			)
 		)
-		(pad "1" smd roundrect
-			(at -1.475 0)
-			(size 1.15 2.7)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.217391)
+		(pad "1" smd rect
+			(at -1.5175 0 90)
+			(size 1.635 2.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 11 "VCC")
 			(uuid "4c265a89-4576-49f0-b731-2964824f4d03")
 		)
-		(pad "2" smd roundrect
-			(at 1.475 0)
-			(size 1.15 2.7)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.217391)
+		(pad "2" smd rect
+			(at 1.5175 0 90)
+			(size 1.635 2.7)
+			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 4 "GND")
 			(uuid "b074cbb5-fb92-4b49-b720-59f7156b424e")
 		)

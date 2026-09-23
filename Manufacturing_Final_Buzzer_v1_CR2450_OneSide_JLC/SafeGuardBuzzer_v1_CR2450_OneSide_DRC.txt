@@ -1,7 +1,7 @@
 ** Drc report for SafeGuardBuzzer_v1.kicad_pcb **
-** Created on 2026-09-20T17:49:35-0600 **
+** Created on 2026-09-22T23:25:13-0600 **
 
-** Found 13 DRC violations **
+** Found 12 DRC violations **
 [lib_footprint_issues]: The current configuration does not include the footprint library 'Resistor_SMD'.
     Local override; warning
     @(33.0000 mm, 12.0000 mm): Footprint R1
@@ -32,9 +32,6 @@
 [lib_footprint_issues]: The current configuration does not include the footprint library 'Resistor_SMD'.
     Local override; warning
     @(62.0000 mm, 24.0000 mm): Footprint R2
-[lib_footprint_issues]: The current configuration does not include the footprint library 'Capacitor_SMD'.
-    Local override; warning
-    @(35.0000 mm, 36.0000 mm): Footprint C3
 [silk_over_copper]: Silkscreen clipped by solder mask
     Local override; warning
     @(62.0000 mm, 22.5700 mm): Reference field of R2
@@ -44,48 +41,6 @@
 
 ** Found 0 unconnected pads **
 
-** Found 14 Footprint errors **
-[footprint_symbol_mismatch]: Value (BZ1) doesn't match symbol value (FUET-1365-3V).
-    Local override; warning
-    @(48.0000 mm, 31.0000 mm): Footprint BZ1
-[footprint_symbol_mismatch]: Value (C1) doesn't match symbol value (10uF).
-    Local override; warning
-    @(43.0000 mm, 20.5000 mm): Footprint C1
-[footprint_symbol_mismatch]: Value (C2) doesn't match symbol value (100nF).
-    Local override; warning
-    @(49.0000 mm, 20.5000 mm): Footprint C2
-[footprint_symbol_mismatch]: Value (C3) doesn't match symbol value (100uF).
-    Local override; warning
-    @(35.0000 mm, 36.0000 mm): Footprint C3
-[footprint_symbol_mismatch]: Value (D1) doesn't match symbol value (Red LED).
-    Local override; warning
-    @(36.0000 mm, 12.0000 mm): Footprint D1
-[footprint_symbol_mismatch]: Value (D2) doesn't match symbol value (BAT54WS).
-    Local override; warning
-    @(58.0000 mm, 37.0000 mm): Footprint D2
-[footprint_symbol_mismatch]: Value (J1) doesn't match symbol value (SWD_DEBUG).
-    Local override; warning
-    @(60.0000 mm, 22.0000 mm): Footprint J1
-[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.
-    Local override; warning
-    @(60.0000 mm, 22.0000 mm): Footprint J1
-[footprint_symbol_mismatch]: Value (J2) doesn't match symbol value (VBAT_GND_TEST).
-    Local override; warning
-    @(12.0000 mm, 11.0000 mm): Footprint J2
-[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.
-    Local override; warning
-    @(12.0000 mm, 11.0000 mm): Footprint J2
-[footprint_symbol_mismatch]: Value (JP1) doesn't match symbol value (CURRENT_MEAS).
-    Local override; warning
-    @(16.0000 mm, 7.0000 mm): Footprint JP1
-[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.
-    Local override; warning
-    @(16.0000 mm, 7.0000 mm): Footprint JP1
-[footprint_symbol_mismatch]: Value (Q1) doesn't match symbol value (AO3400A).
-    Local override; warning
-    @(62.0000 mm, 34.5000 mm): Footprint Q1
-[footprint_symbol_mismatch]: Value (S1) doesn't match symbol value (PCM12 ON/OFF).
-    Local override; warning
-    @(6.0000 mm, 7.0000 mm): Footprint S1
+** Found 0 Footprint errors **
 
 ** End of Report **

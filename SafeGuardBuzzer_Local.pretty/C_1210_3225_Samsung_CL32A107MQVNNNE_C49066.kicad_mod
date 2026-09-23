@@ -1,0 +1,132 @@
+(footprint "C_1210_3225_Samsung_CL32A107MQVNNNE_C49066"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Samsung CL32A107MQVNNNE / LCSC C49066, nonpolar 100uF 6.3V X5R MLCC. Body 3.20x2.50x2.50mm, termination BW 0.60+/-0.30mm from Samsung. Pads 1.635x2.700mm on 3.035mm pitch from official JLC/LCSC EasyEDA package C1210 for C49066.")
+	(tags "capacitor MLCC 1210 3225 Samsung CL32A107MQVNNNE C49066")
+	(property "Reference" "C3"
+		(at 0 -2.3 0)
+		(layer "F.SilkS")
+		(uuid "f994982a-7d5e-423c-825b-df12ec5309ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "100uF"
+		(at 0 2.3 0)
+		(layer "F.Fab")
+		(uuid "54d1ad3f-e4e0-4486-ade1-8050331885fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "304a606b-6acb-4230-af61-d4f00d949772")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68d4549d-8398-43d7-a773-bb426d2c8f56")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.6 -1.36)
+		(end 0.6 -1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d314d9c-9b7e-40b4-bce8-1a46f044eb1b")
+	)
+	(fp_line
+		(start -0.6 1.36)
+		(end 0.6 1.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8cad3588-5f75-4c68-80e6-41adf8520844")
+	)
+	(fp_rect
+		(start -2.6 -1.65)
+		(end 2.6 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2de80d3a-034a-4866-a377-0c86b61fb1b1")
+	)
+	(fp_rect
+		(start -1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "df8c2828-dd5d-4110-ba97-4a943f5b0ced")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "bb694394-7654-453c-a29f-822ede0c016d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5175 0)
+		(size 1.635 2.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "36deb555-1a89-4988-8b60-b89a57b45fa5")
+	)
+	(pad "2" smd rect
+		(at 1.5175 0)
+		(size 1.635 2.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "71d9810a-5e0a-45c7-b08e-c3c0b9e0c081")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1210_3225Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
